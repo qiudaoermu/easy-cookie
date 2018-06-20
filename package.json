@@ -1,0 +1,19 @@
+{
+  "name": "react-easy-cookie",
+  "version": "1.0.2",
+  "description": "react cookie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiudaoermu/react-easy-cookie.git"
+  },
+  "author": "star_chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiudaoermu/react-easy-cookie/issues"
+  },
+  "homepage": "https://github.com/qiudaoermu/react-easy-cookie#readme"
+}
