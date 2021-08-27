@@ -1,12 +1,12 @@
-# react-easy-cookie
+#easy - cookie
 
 cookie设置读取
 
-import cook_easy from 'react-easy-cookie'
+import cook_easy from 'easy-cookie'
 
 //设置
 
-cook_easy.setCookie('userName','123',30)
+cook_easy.setCookie('userName', '123', 30)
 
 //读取
 
