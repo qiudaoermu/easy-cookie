@@ -1,6 +1,6 @@
 {
   "name": "react-easy-cookie",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "react cookie",
   "main": "dist/js.cookie",
   "scripts": {
