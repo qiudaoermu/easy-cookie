@@ -1,10 +1,10 @@
 {
   "name": "react-easy-cookie",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "react cookie",
-  "main": "index.js",
+  "main": "dist/js.cookie",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "qunit"
   },
   "repository": {
     "type": "git",
@@ -12,8 +12,36 @@
   },
   "author": "star_chen",
   "license": "ISC",
+  "browser": "dist/js.cookie.js",
+  "module": "dist/js.cookie.mjs",
   "bugs": {
     "url": "https://github.com/qiudaoermu/react-easy-cookie/issues"
   },
-  "homepage": "https://github.com/qiudaoermu/react-easy-cookie#readme"
+  "homepage": "https://github.com/qiudaoermu/react-easy-cookie#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "grunt": "^1.4.1",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-qunit": "^5.0.1",
+    "qunit": "^2.16.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "grunt": "^1.1.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-exec": "^3.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-license": "^2.5.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
