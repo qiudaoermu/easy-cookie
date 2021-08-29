@@ -31,12 +31,10 @@ export default [
   {
     input: './index.js',
     output: [
-      // config for <script type="module">
       {
         file: pkg.module.replace('.mjs', '.min.mjs'),
         format: 'esm'
       },
-      // config for <script nomodule>
       {
         file: pkg.browser.replace('.js', '.min.js'),
         format: 'umd',
