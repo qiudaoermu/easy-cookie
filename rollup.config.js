@@ -14,12 +14,10 @@ export default [
   {
     input: './index.js',
     output: [
-      // config for <script type="module">
       {
         file: pkg.module,
         format: 'esm'
       },
-      // config for <script nomodule>
       {
         file: pkg.browser,
         format: 'umd',
