@@ -12,6 +12,6 @@ cook_easy.set('userName', '123', 30)
 
 cook_easy.get("userName")
 
-#### 删除 remove
+##### 删除 remove
 
 cook_easy.remove("userName")
