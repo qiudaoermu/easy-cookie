@@ -32,7 +32,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-exec');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-qunit');
-
   // A convenient task alias.
   grunt.registerTask('test', ['exec:rollup', 'connect', 'qunit']);
   grunt.registerTask('default', ['test']);
